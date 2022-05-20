@@ -4,12 +4,6 @@ using namespace std;
 
 int main() {
 
-    system("sc query NvContainerLocalSystem");
-
-    cout << "\n"<<system("sc query NvContainerLocalSystem | find \"RUNNING\"");
-    cout << "\n Press enter to stop the service. \n";
-    cin.ignore(std::numeric_limits<streamsize>::max(), '\n');
-
     while (1) {
 
 
